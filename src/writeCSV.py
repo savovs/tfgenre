@@ -6,14 +6,14 @@ file_names = []
 file_paths = []
 sound_categories = []
 
-data_path = os.path.dirname(os.path.realpath(__file__)) + '/../data/'
+json_path = os.path.dirname(os.path.realpath(__file__)) + '/../data/json'
 
 max_files = 3000
 count = 0
 rows = []
 
 print("Loading data...")
-for root, sub_dirs, files in os.walk(data_path):
+for root, sub_dirs, files in os.walk(json_path):
     for file in files:
         if (file.endswith('.json')):
             if count < max_files:
@@ -53,10 +53,4 @@ selected_columns = ['category', 'lowLevel.mfcc']
 
 data = data[selected_columns]
 data = data.set_index('category')
-data.to_csv(data_path + 'data.csv')
-
-try:
-    os.makedirs(plot_path)
-except OSError as exception:
-    if exception.errno != errno.EEXIST:
-        raise
+data.to_csv(json_path + '/../data.csv')
