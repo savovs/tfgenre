@@ -23,8 +23,8 @@ Subfolder names used as categories, i.e. `data/audio/car_horn/11251.wav`
 3. Run `src/extract_features.py` with Python2.7 to load audio from `data/audio` and produce JSON files with audio features
 4. Run `write_csv.py` to distill all JSON to one .csv
 
-### Optional Run TensorBoard for visualisations (replace with absolute path to logs folder):
-Download and unzip [log files](https://drive.google.com/file/d/1LFD13gY05hR_EO_K7w0t0KQPLIr1ACJ7/view?usp=sharing)
+### Optional Run TensorBoard for visualisations:
+Download and unzip [log files](https://drive.google.com/file/d/1LFD13gY05hR_EO_K7w0t0KQPLIr1ACJ7/view?usp=sharing) in root folder
 
 Start TensorBoard 
 ```sh
