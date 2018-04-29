@@ -6,8 +6,8 @@
 sh evaluate.sh
 ```
 
-```sh
 ### To train all models
+```sh
 sh train.sh
 ```
 
