@@ -1,5 +1,5 @@
 # tfgenre - Vlady Veselinov
-### Download and unzip [trained models](https://drive.google.com/file/d/1vKefYwCyanKxHKeef-yzxh0YMpuil4ju/view?usp=sharing) (2GB)
+### Download and unzip [trained models](https://drive.google.com/file/d/1vKefYwCyanKxHKeef-yzxh0YMpuil4ju/view?usp=sharing) in root folder (2GB)
 
 ### To evaluate accuracy of all models:
 ```sh
