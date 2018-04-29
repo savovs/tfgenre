@@ -17,7 +17,7 @@ model = tflearn.DNN(
 model.fit(
     { 'input': train_x },
     { 'targets': train_y },
-    n_epoch=1,
+    n_epoch=100,
     validation_set=({ 'input': test_x }, { 'targets': test_y }),
     batch_size=64,
     snapshot_step=200,

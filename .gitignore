@@ -1,6 +1,7 @@
 data/
 trained_models/
 logs/
+src/tflearn/
 .vscode/
 
 # Byte-compiled / optimized / DLL files
